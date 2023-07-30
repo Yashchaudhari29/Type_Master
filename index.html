@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Type_Mater</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<link rel="stylesheet" href="Type.css">
+<body>
+     <div class="Heading">
+          <h1>Type the given texts in following Text area</h1>
+     </div>
+     <div class="Dyanamic_Words">
+          <h2 id="Dynamic_Words">press Start button to start your timing</h2>
+     </div>
+     <div id="TextArea" class="TextArea">
+          <textarea onblur="blur()" name="" id="textarea" cols="80" rows="15"
+               placeholder="Type the given text here"></textarea>
+     </div>
+     <div class="btn">
+          <button id="btn">START</button>
+          <button id="btn2">STOP</button>
+     </div>
+     <div id="Timer" class="Timer animate__animated ">
+          <h1 style="text-align: center;">Time taken by you</h1>
+          <h3 id="Watch"></h3>
+     </div>
+</body>
+<script src="Type.js"></script>
+</html>
